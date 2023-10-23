@@ -1,0 +1,42 @@
+- var docName = "MyGiro"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= docName
+        link(rel="stylesheet", href="styles/style.css")
+    body         
+        include modules/header
+    h1 Курсы
+    .telo 
+        p 
+            table
+                tr
+                    th Название курса
+                    th Продолжительнось
+                    th Цена
+                tr
+                    td Разговорный английский для начинающих(уровень А1)
+                    td 
+                        .a 3 месяца
+                    td Персональный треннер 19 400 Р
+
+                tr
+                    td Преподаватель английского
+                    td 
+                        .a 3 месяца
+                    td 2196 Р/мес
+                tr
+                    td Английский для детей
+                    td 
+                        .b 6 месяцев
+                    td от 746 Р/урок
+                tr
+                    td Английский для IT-специалистов
+                    td 
+                        .b 6 месяцев
+                    td 34 900 за Р/курс
+    include modules/footer

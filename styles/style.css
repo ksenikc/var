@@ -1,0 +1,92 @@
+.banner {
+  background-image: url("../img/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(44, 86, 192);
+  height: 70px;
+  margin: 0;
+}
+header nav li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+header nav li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 50px;
+  text-align: center;
+  color: azure;
+  background-color: rgb(44, 86, 192);
+  margin: 0;
+}
+
+.telo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.telo table {
+  width: 73%;
+  border-collapse: collapse;
+  height: 200px;
+}
+.telo table th {
+  border: 1px solid black;
+}
+.telo table td {
+  border: 1px solid black;
+}
+
+.telodva {
+  margin-left: 250px;
+}
+
+.prepod {
+  display: flex;
+  background-color: rgb(44, 86, 192);
+  padding-left: 500px;
+  padding-top: 10px;
+}
+.prepod .prep img {
+  text-align: center;
+  margin-right: 20px;
+  height: 300px;
+}
+.prepod p {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.prepod input {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(37, 37, 37);
+  color: azure;
+  border-radius: 10px;
+  height: 40px;
+  width: 170px;
+}
+
+footer {
+  background-color: white;
+  height: 60px;
+}
+footer p {
+  color: black;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
